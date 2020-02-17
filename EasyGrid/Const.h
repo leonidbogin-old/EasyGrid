@@ -5,19 +5,19 @@ extern char* BOX_SIZE_DEFAULT = "500";
 extern char* POINT_TYPE_DEFAULT = "EN";
 
 //errors
-extern char* ERROR_LAST_SELECTION = "Возможно проблема в заключается в том,\nчто программа не расположена в директории SAS Planet.\nЕсли так, закройте программу и переместите её в папку с программой SAS Planet.";
-extern char* ERROR_LAST_SELECTION_HEADER = "Ошибка копирования из файла LastSelection.hlg";
-extern char* ERROR_INPUT_POINT_HEADER = "Ошибка ввода координат";
-extern char* ERROR_INPUT_LAT_1 = "В поле <Левый верхний угол/Долгота (Lat)> не число!";
-extern char* ERROR_INPUT_LON_1 = "В поле <Левый верхний угол/Широта (Lon)> не число!";
-extern char* ERROR_INPUT_LAT_2 = "В поле <Правый нижний угол/Долгота (Lat)> не число!";
-extern char* ERROR_INPUT_LON_2 = "В поле <Правый нижний угол/Широта (Lon)> не число!";
-extern char* ERROR_INPUT_BOX_HEADER = "Ошибка выбора параметров квадрата сетки";
-extern char* ERROR_INPUT_BOX_SIZE = "В поле <Размер квадрата сетки> не число!";
-extern char* ERROR_INPUT_BOX = "В поле <Размер квадрата сетки> не число!";
-extern char* ERROR_INPUT_POINTS_TYPE = "В поле <Тип обозначения точек> ничего не выбрано!";
-extern char* ERROR_LAT_MORE = "У левого верхнего угла не может быть широта больше, чем у нижнего правого угла.\nПроверьте корректность введенных координат.";
-extern char* ERROR_LON_MORE = "У левого верхнего угла не может быть долгота меньше, чем у нижнего правого угла.\nПроверьте корректность введенных координат.";
+extern wchar_t ERROR_LAST_SELECTION[] = L"Возможно проблема в заключается в том,\nчто программа не расположена в директории SAS Planet.\nЕсли так, закройте программу и переместите её в папку с программой SAS Planet.";
+extern wchar_t ERROR_LAST_SELECTION_HEADER[] = L"Ошибка копирования из файла LastSelection.hlg";
+extern wchar_t ERROR_INPUT_POINT_HEADER[] = L"Ошибка ввода координат";
+extern wchar_t ERROR_INPUT_LAT_1[] = L"В поле <Левый верхний угол/Долгота (Lat)> не число!";
+extern wchar_t ERROR_INPUT_LON_1[] = L"В поле <Левый верхний угол/Широта (Lon)> не число!";
+extern wchar_t ERROR_INPUT_LAT_2[] = L"В поле <Правый нижний угол/Долгота (Lat)> не число!";
+extern wchar_t ERROR_INPUT_LON_2[] = L"В поле <Правый нижний угол/Широта (Lon)> не число!";
+extern wchar_t ERROR_INPUT_BOX_HEADER[] = L"Ошибка выбора параметров квадрата сетки";
+extern wchar_t ERROR_INPUT_BOX_SIZE[] = L"В поле <Размер квадрата сетки> не число!";
+extern wchar_t ERROR_INPUT_BOX[] = L"В поле <Размер квадрата сетки> не число!";
+extern wchar_t ERROR_INPUT_POINTS_TYPE[] = L"В поле <Тип обозначения точек> ничего не выбрано!";
+extern wchar_t ERROR_LAT_MORE[] = L"У левого верхнего угла не может быть широта больше, чем у нижнего правого угла.\nПроверьте корректность введенных координат.";
+extern wchar_t ERROR_LON_MORE[] = L"У левого верхнего угла не может быть долгота меньше, чем у нижнего правого угла.\nПроверьте корректность введенных координат.";
 
 //const
 extern char* ALPHABET_RU_DEFAULT = "АБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЭЮЯ";
@@ -96,5 +96,5 @@ extern double ANGLEDOWN = 270.0 * RAD;
 extern double ANGLERIGHT = 0;
 
 //file
-extern char* FILE_READY = "Файл успешно создан и сохранен";
-extern char* READY = "Готово";
+extern wchar_t FILE_READY[] = L"Файл успешно создан и сохранен";
+extern wchar_t READY[] = L"Готово";

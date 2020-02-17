@@ -1,33 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.346,C:\Users\leonidbogin\Desktop\EasyGrid\Point.h=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.723,C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.723,C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.626,C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\leonidbogin\Desktop\EasyGrid\Project1PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.744,=C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,C:\Users\leonidbogin\Desktop\EasyGrid\UnitMain.h=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.978,=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.657,=C:\Users\leonidbogin\Desktop\EasyGrid\File1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.984,=C:\Users\leonidbogin\Desktop\EasyGrid\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.308,=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.001,C:\Users\leonidbogin\Desktop\EasyGrid\Converter.cpp=C:\Users\leonidbogin\Desktop\EasyGrid\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.346,C:\Users\leonidbogin\Desktop\EasyGrid\Point.h=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.045,C:\Users\leonidbogin\Desktop\EasyGrid\UnitMain.dfm=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.586,=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.894,C:\Users\leonidbogin\Desktop\EasyGrid\Converter.h=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.436,C:\Users\leonidbogin\Desktop\EasyGrid\Converter.h=C:\Users\leonidbogin\Desktop\EasyGrid\Converter.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,C:\Users\leonidbogin\Desktop\EasyGrid\UnitMain.cpp=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.119,C:\Users\leonidbogin\Desktop\EasyGrid\EasyGrid.cbproj=C:\Users\leonidbogin\Desktop\EasyGrid\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.744,=C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.626,C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\leonidbogin\Desktop\EasyGrid\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.723,C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.219,=C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.884,=C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.753,C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\leonidbogin\Desktop\EasyGrid\Project1.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.361,C:\Users\leonidbogin\Desktop\EasyGrid\GeoPoint.h=C:\Users\leonidbogin\Desktop\EasyGrid\Point.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.723,C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.884,=C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>2019.12.18 00:13:50.109,C:\Users\leonidbogin\Desktop\EasyGrid\EasyGridPCH1.h=C:\Users\leonidbogin\Desktop\EasyGrid\Project1PCH1.h</Transaction>
-    <Transaction>2019.12.18 00:13:50.119,C:\Users\leonidbogin\Desktop\EasyGrid\EasyGrid.cbproj=C:\Users\leonidbogin\Desktop\EasyGrid\Project1.cbproj</Transaction>
-    <Transaction>2019.12.18 02:50:41.044,C:\Users\leonidbogin\Desktop\EasyGrid\UnitMain.h=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.h</Transaction>
-    <Transaction>2019.12.18 02:50:41.044,C:\Users\leonidbogin\Desktop\EasyGrid\UnitMain.cpp=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.cpp</Transaction>
-    <Transaction>2019.12.18 02:50:41.045,C:\Users\leonidbogin\Desktop\EasyGrid\UnitMain.dfm=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.dfm</Transaction>
-    <Transaction>2019.12.18 02:58:38.308,=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
-    <Transaction>2019.12.18 02:59:42.794,C:\Users\leonidbogin\Desktop\EasyGrid\Const.h=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
-    <Transaction>2019.12.18 04:25:19.586,=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
-    <Transaction>2019.12.18 04:26:26.894,C:\Users\leonidbogin\Desktop\EasyGrid\Converter.h=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
-    <Transaction>2019.12.18 04:37:57.436,C:\Users\leonidbogin\Desktop\EasyGrid\Converter.h=C:\Users\leonidbogin\Desktop\EasyGrid\Converter.h</Transaction>
-    <Transaction>2019.12.18 04:39:57.233,C:\Users\leonidbogin\Desktop\EasyGrid\Converter.cpp=C:\Users\leonidbogin\Desktop\EasyGrid\Converter.cpp</Transaction>
-    <Transaction>2019.12.18 04:45:07.483,=C:\Users\leonidbogin\Desktop\EasyGrid\File1.cpp</Transaction>
-    <Transaction>2019.12.18 04:45:24.001,C:\Users\leonidbogin\Desktop\EasyGrid\Converter.cpp=C:\Users\leonidbogin\Desktop\EasyGrid\File1.cpp</Transaction>
-  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <Transaction>1899.12.30 00:00:00.000.984,=C:\Users\leonidbogin\Desktop\EasyGrid\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.657,=C:\Users\leonidbogin\Desktop\EasyGrid\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.109,C:\Users\leonidbogin\Desktop\EasyGrid\EasyGridPCH1.h=C:\Users\leonidbogin\Desktop\EasyGrid\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.723,C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.233,C:\Users\leonidbogin\Desktop\EasyGrid\Converter.cpp=C:\Users\leonidbogin\Desktop\EasyGrid\Converter.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.483,=C:\Users\leonidbogin\Desktop\EasyGrid\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.723,C:\Users\leonidbogin\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\leonidbogin\Desktop\EasyGrid\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.794,C:\Users\leonidbogin\Desktop\EasyGrid\Const.h=C:\Users\leonidbogin\Desktop\EasyGrid\File1.h</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="EasyGrid.cpp"/>
     <File Path="EasyGridPCH1.h"/>
     <File Path="GeoPoint.h"/>
@@ -38,5 +39,5 @@
     <File Path="Const.h"/>
     <File Path="Converter.h"/>
     <File Path="Converter.cpp"/>
-  </ProjectSortOrder>
+  </ProjectSortOrder>  <BT_BuildType>Debug</BT_BuildType>
 </BorlandProject>

@@ -29,7 +29,7 @@ TFormMain *FormMain;
 TIniFile *Ini = new TIniFile(ExtractFilePath(ParamStr(0))+INI_NAME);
 void CopyÑoordinates();
 void LoadIni();
-void ShowError(string text, string header);
+void ShowError(wchar_t text[], wchar_t header[]);
 void CreateFile(GeoPoint pointMin, GeoPoint pointMax,
 				double boxSize, UnicodeString alphabet, GeoPoint lengthPlanet,
 				char* hlmns, UnicodeString filePath);
@@ -99,9 +99,9 @@ void CopyÑoordinates()
 	file_in.close(); 
 }
 //---------------------------------------------------------------------------
-void ShowError(string text, string header)
+void ShowError(wchar_t text[], wchar_t header[])
 {
-	MessageBox(NULL, text.c_str(), header.c_str(), MB_OK);
+	MessageBox(NULL, text, header, MB_OK);
 }
 //---------------------------------------------------------------------------
 void __fastcall TFormMain::ButtonSaveClick(TObject *Sender)
@@ -121,6 +121,8 @@ void __fastcall TFormMain::ButtonSaveClick(TObject *Sender)
 		pointMin.lat = OnDouble(EditLat1->Text);
 	else {
 		ShowError(ERROR_INPUT_LAT_1,ERROR_INPUT_POINT_HEADER);
+		ButtonSave->Enabled = true;
+		ProgressBar->Position = 0;
 		return;
 	}
 
@@ -128,6 +130,8 @@ void __fastcall TFormMain::ButtonSaveClick(TObject *Sender)
 		pointMin.lon = OnDouble(EditLon1->Text);
 	else {
 		ShowError(ERROR_INPUT_LON_1,ERROR_INPUT_POINT_HEADER);
+        ButtonSave->Enabled = true;
+		ProgressBar->Position = 0;
 		return;
 	}
 
@@ -135,6 +139,8 @@ void __fastcall TFormMain::ButtonSaveClick(TObject *Sender)
 		pointMax.lat = OnDouble(EditLat2->Text);
 	else {
 		ShowError(ERROR_INPUT_LAT_2,ERROR_INPUT_POINT_HEADER);
+        ButtonSave->Enabled = true;
+		ProgressBar->Position = 0;
 		return;
 	}
 
@@ -142,16 +148,22 @@ void __fastcall TFormMain::ButtonSaveClick(TObject *Sender)
 		pointMax.lon = OnDouble(EditLon2->Text);
 	else {
 		ShowError(ERROR_INPUT_LON_2,ERROR_INPUT_POINT_HEADER);
+		ButtonSave->Enabled = true;
+		ProgressBar->Position = 0;
 		return;
 	}
 
 	if (pointMin.lat < pointMax.lat) {
 		ShowError(ERROR_LAT_MORE,ERROR_INPUT_POINT_HEADER);
+		ButtonSave->Enabled = true;
+		ProgressBar->Position = 0;
 		return;
 	}
 
 	if (pointMin.lon > pointMax.lon) {
 		ShowError(ERROR_LON_MORE,ERROR_INPUT_POINT_HEADER);
+		ButtonSave->Enabled = true;
+		ProgressBar->Position = 0;
 		return;
 	}
 
@@ -160,6 +172,8 @@ void __fastcall TFormMain::ButtonSaveClick(TObject *Sender)
 		boxSize = OnDouble(ComboBoxBoxSize->Text);
 	else {
 		ShowError(ERROR_INPUT_BOX_SIZE,ERROR_INPUT_BOX_HEADER);
+        ButtonSave->Enabled = true;
+		ProgressBar->Position = 0;
 		return;
 	}
 
@@ -175,6 +189,8 @@ void __fastcall TFormMain::ButtonSaveClick(TObject *Sender)
 			alphabet = "";
 	} else {
 		ShowError(ERROR_INPUT_POINTS_TYPE,ERROR_INPUT_BOX_HEADER);
+        ButtonSave->Enabled = true;
+		ProgressBar->Position = 0;
 		return;
 	}
 
@@ -188,6 +204,7 @@ void __fastcall TFormMain::ButtonSaveClick(TObject *Sender)
         }
 		catch(exception e)
 		{
+
         }
 	}
 	ButtonSave->Enabled = true;
@@ -323,6 +340,6 @@ void CreateFile(GeoPoint pointMin, GeoPoint pointMax,
 	Application->ProcessMessages();
 	XMLDocument->SaveToFile(filePath);
 	FormMain->ProgressBar->Position = PROGRESSBAR_FULL;
-    MessageBox(NULL, FILE_READY, READY, MB_OK);
+	MessageBox(NULL, FILE_READY, READY, MB_OK);
 }
 //---------------------------------------------------------------------------
